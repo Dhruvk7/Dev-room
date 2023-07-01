@@ -1,21 +1,44 @@
-## Steps of hosting MERN
-### General
-    1. Create a cloud URL for mongo db and convert every local URL to cloud URL.
-    2. Confirm that whether it is working
+# Dev-Room
 
-### Backend Hosting
+## Website link [here](https://dev-room77.netlify.app/)
 
-    1. Create a separate folder and move all the backend code into it
-    2. Push the backend code of the above folder in a github repo
-    3. Go to render and connect a web service with the above repo
-    4. Check whether the hosted api working or not.
+## Developer : [Dhruv Khera](https://github.com/Dhruvk7)
 
-### Frontend hosting 
-    
-    1. Remove proxy from package.json
-    2. Replace all the api's with backend api
-    3. After that check whether frontend is working or not
-    4. Add _redirects in public folder and add "/*  /index.html  200" into it without quotation
-    5. Run the command npm run build inside client folder
-    6. Drag and drop build folder in netlify
+## Features :
+
+    1. User can login and register.
+    2. They can create , update and delete the profiles , experience
+    and education to keep it latest updated.
+    3. User can also view the profile of other developers registered
+    in this platform and follow/unfollow them.
+    4.They can also post text, post text with image, like and comment on 
+    the post and can also view the post posted by other developers.
+    5.User can also delete their own post and comments.
+
+## How to run on local machine
+
+    1. Clone the repository
+    2. Create a .env file and add MONGO_DB_CLOUD_URL and JWT_SECRET_KEY
+    with your own credentials.
+    3. Run $npm install both inside the client folder and the root folder
+    4. Run $node server in the root folder and $npm start in the client
+    folder.
+    5. App starts running on port 3000. You are good to go!
+
+
+## Screenshots
+### Home
+[![home.png](https://i.postimg.cc/C5YrDfFG/home.png)](https://postimg.cc/sQ6JCxGx)
+## Dashboard
+[![dashboard.png](https://i.postimg.cc/sXCTdZGk/dashboard.png)](https://postimg.cc/VS4qXvRg)
+## Profile List
+[![profilelist.png](https://i.postimg.cc/1zrqXgjh/profilelist.png)](https://postimg.cc/cK6H5JWX)
+## Profile view
+[![profile-View.png](https://i.postimg.cc/7YtXPRTM/profile-View.png)](https://postimg.cc/zVWT007V)
+## Post Page
+[![post.png](https://i.postimg.cc/vZRgvLRw/post.png)](https://postimg.cc/kBcgJSXT)
+## Comments Page
+[![comments.png](https://i.postimg.cc/vBmcm0nf/comments.png)](https://postimg.cc/cKVs9MXL)
+
+
 
